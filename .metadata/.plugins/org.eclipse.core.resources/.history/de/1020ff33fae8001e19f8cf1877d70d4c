@@ -1,0 +1,11 @@
+package Thuchanhbuoi4;
+
+import java.util.Scanner;
+
+public abstract class ConVat {
+	String giong;
+	String maulong;
+	float cannang;
+	
+	abstract void Keu();
+}

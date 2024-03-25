@@ -1,0 +1,8 @@
+package Thuchanhbuoi4;
+
+public class Ga extends ConVat{
+	String name = new String("Gà");
+	public void Keu() {
+		System.out.println("Kêu: cục tácccc");
+	}
+}

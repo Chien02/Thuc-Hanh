@@ -1,0 +1,15 @@
+package Thuchanhbuoi4;
+
+public class SinhVienCNTT extends SinhVien{
+	private String taikhoan;
+	private String matkhau;
+	private String email;
+	
+	public SinhVienCNTT() {
+		super();
+		taikhoan = "null";
+		matkhau = "null";
+		email = "null";
+	}
+	
+}

@@ -1,0 +1,9 @@
+package Thuchanhbuoi4;
+
+import Thuchanhbuoi3.Diem;
+
+public class DiemMau extends Diem{
+	private String mau;
+	
+	
+}

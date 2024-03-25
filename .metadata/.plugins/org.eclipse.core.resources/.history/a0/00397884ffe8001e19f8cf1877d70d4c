@@ -1,0 +1,13 @@
+package Thuchanhbuoi4;
+
+public class Bo extends ConVat{
+	String name = new String("Bò");
+	public void Keu() {
+		System.out.println("Kêu: Ủm bòooooo");
+	}
+	
+	public void NhapThongTin() {
+		System.out.println("Hãy nhập thông tin cho Bò");
+		super.NhapThongTin();
+	}
+}

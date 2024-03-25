@@ -1,0 +1,9 @@
+package Thuchanhbuoi4;
+
+public abstract class ConVat {
+	String giong;
+	String maulong;
+	float cannang;
+	
+	public abstract void Keu();
+}

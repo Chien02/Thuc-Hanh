@@ -1,0 +1,32 @@
+package Thuchanhbuoi4;
+
+public class Ga extends ConVat{
+	String name = new String("Gà");
+	public void Keu() {
+		if (giong.compareTo("Đực") == 0 || 
+			giong.compareTo("đực") == 0  || 
+			giong.compareTo("duc") == 0) 
+		{
+			System.out.println("Kêu: ò ó o oooo");
+		}
+		else if (giong.compareTo("Cái") == 0 ||
+				giong.compareTo("cái") == 0 ||
+				giong.compareTo("cai") == 0)
+		{
+			System.out.println("Kêu: cục tácccc");
+		}
+		else {
+			System.out.println("Kêu: cục cục");
+		}
+	}
+	public void NhapThongTin() {
+		System.out.println("Hãy nhập thông tin cho Bò");
+		super.NhapThongTin();
+	}
+		
+	public void HienThongTin() {
+		System.out.println("Thông tin cho Bò");
+		super.HienThi();
+	}
+	
+}

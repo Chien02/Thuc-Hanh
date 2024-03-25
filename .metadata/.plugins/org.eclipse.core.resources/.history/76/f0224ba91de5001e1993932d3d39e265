@@ -1,0 +1,38 @@
+package Thuchanhbuoi4;
+
+public class SinhVienCNTT extends SinhVien{
+	private String taikhoan;
+	private String matkhau;
+	private String email;
+	
+	public SinhVienCNTT() {
+		super();
+		taikhoan = "null";
+		matkhau = "null";
+		email = "null";
+	}
+	
+	public SinhVienCNTT(String _id,
+			String _name,
+			Date _birthday,
+			int _so_hoc_phan,
+			String[] _ten_hoc_phan,
+			String[] _diem_hoc_phan,
+			String _taikhoan,
+			String _matkhau,
+			String _email) {
+		super(_id, _name, _birthday, _so_hoc_phan, _ten_hoc_phan,_diem_hoc_phan);
+		taikhoan = _taikhoan;
+		matkhau = _matkhau;
+		email = _email;
+	}
+	
+	public SinhVienCNTT(SinhVienCNTT A) {
+		name = A.name;
+		
+		taikhoan = A.taikhoan;
+		matkhau = A.matkhau;
+		email = A.email;
+	}
+	
+}

@@ -1,0 +1,19 @@
+package Thuchanhbuoi4;
+
+import java.util.Scanner;
+
+public abstract class ConVat {
+	String name;
+	String giong;
+	String maulong;
+	float cannang;
+	
+	public abstract void Keu();
+	
+	public void NhapThongTin() {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Hãy nhập giống cho " + name + ":");
+		System.out.println("Hãy nhập màu lông cho " + name + ":");
+		System.out.println("Hãy nhập cân nặng cho " + name + "(kg):");
+	}
+}

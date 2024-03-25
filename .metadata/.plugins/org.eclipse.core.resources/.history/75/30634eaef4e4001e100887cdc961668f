@@ -1,0 +1,39 @@
+package Thuchanhbuoi4;
+
+import java.util.Scanner;
+import Thuchanhbuoi3.Diem;
+
+public class DiemMau extends Diem{
+	private String mau;
+	
+	public DiemMau(int x, int y, String _mau) {
+		this.x = x;
+		this.y = y;
+		this.mau = new String(_mau);
+	}
+	
+	public void GanMau(String _mau) {
+		this.mau = new String(_mau);
+	}
+
+	
+	public void nhap() {
+		boolean flag = false;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Hãy nhập vào tọa độ (x, y) và tên màu cho điểm");
+		while (!flag) {
+			try {
+				int new_x = Integer.parseInt(scanner.nextLine());
+				int new_y = Integer.parseInt(scanner.nextLine());
+				String new_mau = scanner.nextLine();
+				this.x = new_x;
+				this.y = new_y;
+				this.mau = new_mau;
+			} catch (Exception e) {
+				System.out.println("Hãy nhập lại");
+			}
+		}
+		
+		
+	}
+}

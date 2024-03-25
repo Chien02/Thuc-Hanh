@@ -1,0 +1,17 @@
+package Thuchanhbuoi4;
+
+public class Ga extends ConVat{
+	String name = new String("Gà");
+	public void Keu() {
+		if (giong.compareTo("Đực") == 1) {
+			System.out.println("Kêu: cục tácccc");
+		}
+		else if (giong.compareTo("Cái") == 1) {
+			System.out.println("Kêu: cục tácccc");
+		}
+		else {
+			System.out.println("Kêu: cục tácccc");
+		}
+		
+	}
+}

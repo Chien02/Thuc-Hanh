@@ -1,0 +1,8 @@
+
+
+public class Bo extends ConVat{
+	
+	public void Keu() {
+		
+	}
+}

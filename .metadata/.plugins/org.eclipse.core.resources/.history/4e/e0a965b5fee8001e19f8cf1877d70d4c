@@ -1,0 +1,8 @@
+package Thuchanhbuoi4;
+
+public class Heo extends ConVat{
+	String name = new String("Heo");
+	public void Keu() {
+		System.out.println("Kêu: Ủm bòooooo");
+	}
+}
